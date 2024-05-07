@@ -1,1 +1,1 @@
-console.log("let us start");
+console.log("let us start JS");
