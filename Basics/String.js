@@ -1,9 +1,9 @@
 let Fname = "debadatta" // Assigning the first name to the variable Fname
-let Lname = " brahma" // Assigning the last name to the variable Lname with a leading space
+let Lname = " brahma"   // Assigning the last name to the variable Lname with a leading space
 
 
 let result = (Fname + Lname ) // Concatenating the first name and last name variables
-console.log(result); // O/P debadatta Brahma
+console.log(result);          // O/P debadatta Brahma
 
  // Concatenating Fname, Lname, and the string " lives in India" and storing in aotherResult
 let aotherResult = (Fname + Lname + " lives in India") 
