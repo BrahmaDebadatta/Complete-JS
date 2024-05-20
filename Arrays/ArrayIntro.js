@@ -73,7 +73,7 @@ console.log("arr after splice method" , arr); // [1,55,67]
 // here it includs the end index unlike slice() method and at the same time it deleted the 
 //picked i.e element[2,3,4] from arr henece after the use of splice () now the arr = [1,55,67]
 
-//splice() includes both the start and end indices
+//splice() includes both the start and end index.
 // splice() modifies the original array by removing or replacing elements
 
 
