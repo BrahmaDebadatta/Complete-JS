@@ -52,10 +52,11 @@ console.log(typeof newArr); // string
 
 
 
-console.log("arr before slice " , arr);
+console.log("arr before slice " , arr); // arr before slice  [ 1, 2, 3, 4, 55, 67 ]
 const arrN1 = arr.slice(1,3) 
-console.log(arrN1);
+console.log(arrN1); // [ 2, 3 ]
 console.log("arr after slice method used " , arr) ; // original array is not changed [ 1, 2, 3, 4, 55, 67 ]
+// THE arr ARRAY REMAINS UNCHANGED BEFORE AND AFTER THE USE OF SLICE () METHOD ON IT
 
 //slice() includes the start index but excludes the end index
 //slice() does not modify the original array, 
@@ -67,7 +68,11 @@ console.log("arr after slice method used " , arr) ; // original array is not cha
 console.log("arr before splice method" , arr); // [ 1, 2, 3, 4, 55, 67 ]
 const arrN2 = arr.splice(1,3);
 console.log(arrN2); // [2,3,4] // splice method start from start index and includ last index
-console.log("arr after splice method" , arr); //it deleted the splice element from the original array i.e [1,55,67]
+console.log("arr after splice method" , arr); // [1,55,67]
+// when we use splice(1,3) on arr it pick the element from arr starting from index 1 i.e 2 and to index 3 i.e 4
+// here it includs the end index unlike slice() method and at the same time it deleted the 
+//picked i.e element[2,3,4] from arr henece after the use of splice () now the arr = [1,55,67]
+
 //splice() includes both the start and end indices
 // splice() modifies the original array by removing or replacing elements
 
