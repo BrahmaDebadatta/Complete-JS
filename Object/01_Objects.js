@@ -39,3 +39,21 @@ console.log(UserDetails.country); // India , the O/P remain unchanged even after
 // undefined
 
 console.log(UserDetails["last Name"]);//undefined
+
+
+
+const empDetails ={
+    name : "Debadatta Brahma",
+    age : "45",
+    permanentAddress: "India"
+    
+}
+
+console.log(empDetails.permanentAddress);// India
+//or
+const{permanentAddress} = empDetails;
+console.log(permanentAddress); // India
+//or
+const{permanentAddress:pAdd}= empDetails
+console.log(pAdd); // India
+
