@@ -88,3 +88,11 @@ function addNum(num1, num2){ // here num1 and num2 is called as function paramet
 }
 
 addNum(50,48) // here 50 and 48 is called as function arguments
+
+function yourName(name){
+    return `my name is ${name} `
+}
+
+
+let result = yourName("debadatta");
+console.log(result);
